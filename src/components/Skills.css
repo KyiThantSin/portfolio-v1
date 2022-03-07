@@ -1,0 +1,22 @@
+.card{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-left: 40px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid grey;
+}
+.card>* {
+    flex: 1;
+}
+@media (min-width: 800px){
+    .card{
+        margin:0 15% 0;
+    }
+}
+.skills h2{
+    display: flex;
+    margin: 9%;
+    justify-content: flex-start;
+}

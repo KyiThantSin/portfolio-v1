@@ -1,0 +1,54 @@
+.work{
+    background-image: url("../images/whiteWall.jpg");
+    background-repeat: repeat-y;
+    height: 100%;
+}
+.box{
+    margin-left: 2%;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.github-box{
+    margin:6%;
+    display: flex;
+    justify-content:flex-end;
+}
+@media (max-width:768px){
+    .github-box{
+        padding-bottom: 40px;
+        border-bottom: 1px solid gray;
+    }
+}
+.back{
+    background-image: url("../images/whiteWall.jpg");
+}
+.back img{
+    margin: 6%;
+    display: flex;
+    justify-content: flex-start;
+    width: 3%;
+}
+@media (max-width:400px) {
+    .back img{
+        width: 10%;
+    }
+}
+.back img:hover{
+    padding: 1px;
+    border-radius: 30%;
+    box-shadow: #242323 5px 5px;
+}
+.toGithub{
+    font-size: 20px;
+}
+.toGithub a{
+    color: black;
+    text-decoration: none;
+}
+.toGithub a:hover{
+    text-decoration:underline wavy;
+    text-decoration-thickness: 3px;
+    text-decoration-skip: spaces;
+}

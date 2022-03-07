@@ -1,0 +1,29 @@
+.profile{
+    justify-content:space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.profile img{
+    width: 260px;
+}
+.profile div{
+    text-align: left;
+    line-height: 30px;
+    padding: 10px;
+    width: 55%;
+    font-size: 20px;
+    overflow: wrap;
+    border-bottom: 1px solid grey;
+}
+@media (max-width: 800px) {
+    .profile div{
+        width: 80%;
+    }
+    
+}
+.effect{
+    background-color: #414243;
+    color: white;
+    padding: 5px;
+}

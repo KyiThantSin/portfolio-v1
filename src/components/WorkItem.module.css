@@ -1,0 +1,23 @@
+.projectBox{
+    margin-top: 25px;
+    background-color: #242323;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid #242323;
+    border-radius: 10px;
+}
+.projectBox img{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.caption{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.projectBox:hover{
+    transition: ease;
+    transform: translateY(15px);
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.title{
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow:gainsboro 4px 5px;
+}
+
+.intro-cat{
+    width: 14%;
+    filter: drop-shadow( 2px 2px 2px rgba(0, 0, 0, .7));  
+}
+.intro{
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.intro-paragraph{
+    margin-top: 10px;
+    width: max-content;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 300;
+}
+.next{
+    text-align: center;
+}
+.next img{
+    max-width: 9%;
+}
+.next img:hover{
+    border-radius: 50%;
+    box-shadow: #242323 5px 5px;
+}
+

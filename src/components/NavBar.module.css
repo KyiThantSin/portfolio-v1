@@ -1,0 +1,38 @@
+
+.navbar{
+    padding: 10px;
+    display:flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+    background-image: url("../images/whiteWall.jpg");
+}
+.logo{
+    justify-content: flex-start;
+}
+.menu{
+    display: flex;
+    gap: 1em;
+}
+.menu li{
+    font-size: 20px;
+    list-style: none;
+    background: none;
+    padding: 5px;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu li:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+    text-decoration-style: wavy;
+    cursor: pointer;
+}
+.menu li:active{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+    text-decoration-style: wavy;
+}
